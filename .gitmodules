@@ -1,0 +1,3 @@
+[submodule "vendor/h2o"]
+	path = vendor/h2o
+	url = http://github.com/speedmax/h2o-php.git
