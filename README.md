@@ -15,7 +15,7 @@ To use H2O in your Cobweb project, add this application to the `application` dir
 To use with `Controller::render()` in specific controllers, simply override the  method in a base class:
 
 	<?php
-	class H2OController {
+	class H2OController extends Controller {
 		public function render(
 				$template_name,
 				$bindings = array(),
